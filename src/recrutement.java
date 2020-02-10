@@ -40,5 +40,10 @@ public class recrutement {
 
 	}
 
-	
+	public static void affiche() {
+
+		System.out.println("Nom : " + nom + "\n" + "Prenom :" + prenom + "\n" + "Formation : " + formation + "\n"
+				+ "Expérience : " + experience + "\n" +"Compétence : "+competence[0]+" et " +competence[1] + "\n" + "Attente du cours : " + attenteCours);
+
+	}
 }
